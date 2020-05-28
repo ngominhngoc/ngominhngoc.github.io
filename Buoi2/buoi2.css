@@ -1,0 +1,14 @@
+.first_paragraph{
+    color: red;
+    background: chartreuse;
+    height: 200px;
+    width: 200px;
+    float: left;
+}
+.item2{
+    margin: 10px;
+}
+.center-parent {
+    display: flex;
+    justify-content: center;
+  }

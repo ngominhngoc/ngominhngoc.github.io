@@ -1,0 +1,15 @@
+.box1, .box2{
+    width: 165px;
+    height: 165px;
+    /* background-color: tomato; */
+}
+.box2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+.box2:hover {
+    transition: 0.5s ease-in-out;
+    opacity: 1;
+}

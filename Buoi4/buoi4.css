@@ -1,0 +1,25 @@
+.div-outer{
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    margin-left: 30%;
+    
+}
+.div-child{
+    width: 100px;
+    height: 100px;
+    background: brown;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.div-second-child{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: cadetblue;
+}

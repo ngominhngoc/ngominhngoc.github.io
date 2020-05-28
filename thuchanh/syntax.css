@@ -1,0 +1,22 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.box1{
+    background-color: rosybrown;
+    margin-left: 10px;
+}
+.box2{
+    background-color: yellow;
+}
+h1:hover{
+    color: red;
+}
+
+h1:active{
+    color:blue;
+}

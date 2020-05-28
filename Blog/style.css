@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+#main-manu a:link{
+    color: black;
+    }
+#main-manu a:visited{
+    color: brown;
+    }
+#main-manu a:hover{
+    color: blue;
+    }
+
+#main-manu a:active{
+    color: black;
+    font-weight: bold;
+    }
+.box{
+    padding: 15px;
+    border: 2px solid black;
+    border-top-width: 10px ;
+    float: left;
+    width: 33.3333333%;
+}    
+.info{
+    border-color: blue;
+}
+.company{
+    border-color: red;
+}
+.contact{
+    border-color: yellow;
+}
+.span{
+    color: red;
+}
+.wrap{
+    max-width: 1000px;
+    margin: auto;
+}

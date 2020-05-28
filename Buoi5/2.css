@@ -1,0 +1,4 @@
+.pic1:hover{
+    transition: 1s ease-in-out;
+    opacity: 0.5;
+}

@@ -1,0 +1,28 @@
+.div-cover-img{
+    width: 100%;
+    height: auto;
+}
+.curren-product{
+    width: 300px;
+    height: 400px;
+    border: 2px solid yellow;
+    border-radius: 5px;
+    float: left;
+}
+.img-style{
+    width: 100%;
+    height: auto;
+}
+.wrap{
+    max-width: 1000px;
+    margin: auto;
+    font-family: 'Quicksand', sans-serif;
+}
+.detail-product{
+   /* width: 100px;*/
+    margin-left: 5px;
+    float: left;
+}
+.clear{
+    clear: both;
+}

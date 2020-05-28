@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+.wrap{
+    max-width: 1168px;
+    margin: auto;
+}
+.cv-img{
+    max-width: 1168px;
+    margin: auto;
+    margin-top: -8px;
+}
+#main-manu a:link{
+    color: black;
+    }
+#main-manu a:hover{
+color: blue;
+}
+#main-manu a:active{
+    color: purple;
+}
+
+.box{
+    margin-top: 15px;
+    border: 2px solid red;
+    border-top-width: 10px;
+    float: left;
+    width: 33.33%;
+}
+.info{
+    border-color: blue;
+}
+.about{
+    border-color:yellow;
+}
+.album{
+    border-color:green;
+}
