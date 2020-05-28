@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first game</title>
+</head>
+<body>
+    <canvas id="myCanvas" width="600" height="600" style="background-color: black;"> </canvas>
+</body>
+<script>
+    var canvas = document.getElementById('myCanvas');
+    var context = canvas.getContext('2d');
+    /*Ve HCN*/
+    context.beginPath();
+    context.rect(20, 20, 400, 200);
+    context.fillStyle = 'yellow';
+    context.fill();
+    context.lineWidth = 7;
+    context.strokeStyle = 'red';
+    context.stroke();
+    /*Ve duong cheo 01*/
+    context.beginPath();
+      context.moveTo(20, 20);
+      context.lineTo(400+20, 200+20);
+      context.stroke();
+      context.strokeStyle = 'red';
+    /*Ve duong cheo 02*/
+      context.beginPath();
+      context.moveTo(20, 200 + 20);
+      context.lineTo(400 + 20, 20);
+      context.stroke();
+      context.strokeStyle = 'red';
+  </script>
+</html>
